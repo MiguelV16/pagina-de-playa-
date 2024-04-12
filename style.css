@@ -56,11 +56,12 @@ p{
 
 
 button {
-    background-color: rgb(253, 194, 0);
-    border: solid 2px yellow;
+    background-color: #FFAE00;
+    border: solid 2px rgba(255, 251, 8, 0.911);
     padding: 15px 30px;
     border-radius: 5px;
     font-weight: bold; 
+    color: white;
 }
 
 section {
@@ -76,6 +77,7 @@ background-size: 100%;
     z-index: 100;
     width: 100%;
     padding: 10px 30px;
+    color: white;
 }
 
 
@@ -94,7 +96,12 @@ background-size: 100%;
 .cart-container {
 display: flex;
 justify-content: center;
-
+background-image: url(/assets/pexels-jonas-ferlin-.jpg);
+background-size: 100%;
+background-position: 0% 60%;
+height: 400px;
+align-items: center;
+color: white;
 }
 
 .cart-container__product {
@@ -102,11 +109,17 @@ width: 400px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 }
 
 .cart-container__ptoduct img {
    width: 80%;
 }
+
+.cart-container__product p {
+    font-size: 1.6rem;       
+}
+
 
 .jumbotron {
     background-image: url(/assets/pexels-jeremy-bishop-.jpg);
@@ -121,16 +134,17 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     color: white;
-
+    gap: 10%;
 
     position: relative;
 }
 
 .jumbotron h1 {
     font-size: 3rem;
+}
 
-
-
+.jumbotron button {
+    background-color: transparent;
+    border: solid 2px white;
 }
