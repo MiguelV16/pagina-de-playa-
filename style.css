@@ -93,34 +93,6 @@ background-size: 100%;
     gap: 30px;
 } 
 
-.cart-container {
-display: flex;
-justify-content: center;
-background-image: url(/assets/pexels-jonas-ferlin-.jpg);
-background-size: 100%;
-background-position: 0% 60%;
-height: 400px;
-align-items: center;
-color: white;
-}
-
-.cart-container__product {
-width: 400px;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
-
-}
-
-.cart-container__ptoduct img {
-   width: 80%;
-}
-
-.cart-container__product p {
-    font-size: 1.6rem;       
-}
-
 
 .jumbotron {
     background-image: url(/assets/pexels-jeremy-bishop-.jpg);
@@ -173,6 +145,54 @@ gap: 30px;
     padding: 30px;
 }
 
+.cart-container {
+display: flex;
+justify-content: center;
+background-image: url(/assets/pexels-jonas-ferlin-.jpg);
+background-size: 100%;
+background-position: 0% 60%;
+height: 400px;
+align-items: center;
+color: white;
+}
+
+.cart-container__product {
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+
+}
+
+.cart-container__ptoduct img {
+   width: 80%;
+}
+
+.cart-container__product p {
+    font-size: 1.6rem;       
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    background-image: url(/assets/pexels-david-crypto-.jpg);
+    background-size: 100%;
+    background-position: 0% 60%;
+    gap: 30px;
+    color: white;
+    
+}
+
+.tarjetas p {
+    font-size: 1.5rem;
+}
+
+
+
 .promociones {
     display: flex;
     padding: 30px;
@@ -185,11 +205,72 @@ gap: 30px;
 .promociones__texto {
     margin: 60px;
     flex-direction: column;
-    padding: 40px;
+    padding: 80px;
     
 
 }
 
 .promociones__texto p {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.promociones__texto span {
+    font-size: 3rem;
+    color: #FFAE00;
+}
+
+.eslogan {
+    background-image: url(/assets/pexels-pixabay-1.jpg);
+    background-size: 100%;
+    background-position: 0% 60%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eslogan h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: #174650;
+    background-size: 100%;
+    background-position: 0% 60%;
+    height: 100px;
+    color: white;
+}
+
+.footer__ig {
+    display: flex;
+    align-items: center;
+}
+
+.footer__ig img {
+    margin: 10px;
+}
+
+.footer__ig p {
+    font-size: 1.3rem;
+}
+
+.footer__fb {
+    display: flex;
+    align-items: center;
+}
+
+.footer__fb img {
+    margin: 10px;
+}
+
+.footer__fb p {
+    font-size: 1.3rem;
 }
