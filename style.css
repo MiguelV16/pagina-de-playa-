@@ -65,11 +65,11 @@ button {
 }
 
 section {
-background-image: url('/assets/LTSaeada-Regular.otf');
-background-size: 100%;
-
-}
-
+    background-image: url('/assets/LTSaeada-Regular.otf');
+    background-size: 100%;
+    
+    }
+    
 
 .navbar {
     /* position: fixed; */
